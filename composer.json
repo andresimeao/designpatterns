@@ -11,5 +11,7 @@
             "name": "andre s ferreira"
         }
     ],
-    "require": {}
+    "require": {
+        "nesbot/carbon": "^2.66"
+    }
 }
