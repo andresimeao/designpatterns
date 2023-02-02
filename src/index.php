@@ -1,6 +1,8 @@
 <?php
 include "../vendor/autoload.php";
 
+use Andre\DesingPatterns\Decorator\Cofe;
+use Andre\DesingPatterns\Decorator\CofeWithFareDecorator;
 use Andre\DesingPatterns\Strategy\Duck;
 use Andre\DesingPatterns\Observer\Weather;
 use Andre\DesingPatterns\Observer\BandNews;
@@ -11,10 +13,22 @@ use Andre\DesingPatterns\Strategy\BehaviorsDuck\RubberFly;
 use Andre\DesingPatterns\Strategy\BehaviorsDuck\RocketQuack;
 use Andre\DesingPatterns\Strategy\BehaviorsDuck\RubberQuack;
 
-//começar amanha implementar, observer, decorator, factory
+// factory
 
 //runStrategy();
-runObserver();
+//runObserver();
+runDecorator();
+
+function runDecorator()
+{
+    $cofe = new Cofe();
+    $cofe->qtt = 2;
+    $cofe->value = 2.5;
+    echo $cofe->cost();
+    echo "</br>";
+    $cofe = new CofeWithFareDecorator($cofe);
+    echo $cofe->cost();
+}
 
 function runObserver()
 {
