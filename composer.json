@@ -3,7 +3,7 @@
     "description": "learning desing patterns",
     "autoload": {
         "psr-4": {
-            "Andre\\DesingPatterns\\": "src/"
+            "App\\": "src/"
         }
     },
     "authors": [

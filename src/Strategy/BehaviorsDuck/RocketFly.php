@@ -1,7 +1,8 @@
 <?php
 namespace Andre\DesingPatterns\Strategy\BehaviorsDuck;
 
-use Andre\DesingPatterns\Strategy\Interfaces\FlayBehaviorInterface;
+use App\Strategy\Interfaces\FlayBehaviorInterface;
+
 
 class RocketFly implements FlayBehaviorInterface
 {

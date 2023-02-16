@@ -1,7 +1,7 @@
 <?php
-namespace Andre\DesingPatterns\Strategy\BehaviorsDuck;
+namespace App\Strategy\BehaviorsDuck;
 
-use Andre\DesingPatterns\Strategy\interfaces\QuackBehaviorInterface;
+use App\Strategy\Interfaces\QuackBehaviorInterface;
 
 class RubberQuack implements QuackBehaviorInterface
 {

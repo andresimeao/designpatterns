@@ -1,7 +1,7 @@
 <?php 
-namespace Andre\DesingPatterns\Decorator;
+namespace App\Decorator;
 
-use Andre\DesingPatterns\Decorator\Interface\CofeInterface;
+use App\Decorator\Interface\CofeInterface;
 
 class CofeWithFareDecorator implements CofeInterface
 {

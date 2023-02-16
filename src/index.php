@@ -1,17 +1,19 @@
 <?php
 include "../vendor/autoload.php";
 
-use Andre\DesingPatterns\Decorator\Cofe;
-use Andre\DesingPatterns\Decorator\CofeWithFareDecorator;
-use Andre\DesingPatterns\Strategy\Duck;
-use Andre\DesingPatterns\Observer\Weather;
-use Andre\DesingPatterns\Observer\BandNews;
-use Andre\DesingPatterns\Observer\GloboNews;
-use Andre\DesingPatterns\Observer\SbtReporter;
+use App\Strategy\Duck;
+use App\Decorator\Cofe;
+use App\Observer\Weather;
+use App\Observer\BandNews;
+use App\Observer\GloboNews;
+use App\Observer\SbtReporter;
+use App\Decorator\CofeWithFareDecorator;
+use App\Strategy\BehaviorsDuck\RubberFly;
+use App\Strategy\BehaviorsDuck\RocketQuack;
+use App\Strategy\BehaviorsDuck\RubberQuack;
 use Andre\DesingPatterns\Strategy\BehaviorsDuck\RocketFly;
-use Andre\DesingPatterns\Strategy\BehaviorsDuck\RubberFly;
-use Andre\DesingPatterns\Strategy\BehaviorsDuck\RocketQuack;
-use Andre\DesingPatterns\Strategy\BehaviorsDuck\RubberQuack;
+
+
 
 // factory
 

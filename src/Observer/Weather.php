@@ -1,5 +1,5 @@
 <?php
-namespace Andre\DesingPatterns\Observer;
+namespace App\Observer;
 
 use SplObserver;
 

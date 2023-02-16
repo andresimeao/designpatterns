@@ -1,5 +1,5 @@
 <?php
-namespace Andre\DesingPatterns\Strategy\interfaces;
+namespace App\Strategy\Interfaces;
 
 interface FlayBehaviorInterface 
 {

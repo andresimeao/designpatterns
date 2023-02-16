@@ -1,8 +1,9 @@
 <?php
-namespace Andre\DesingPatterns\Strategy;
+namespace App\Strategy;
 
-use Andre\DesingPatterns\Strategy\Interfaces\FlayBehaviorInterface;
-use Andre\DesingPatterns\Strategy\Interfaces\QuackBehaviorInterface;
+use App\Strategy\Interfaces\FlayBehaviorInterface;
+use App\Strategy\Interfaces\QuackBehaviorInterface;
+
 
 class Duck
 {

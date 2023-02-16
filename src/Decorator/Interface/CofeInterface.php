@@ -1,5 +1,5 @@
 <?php
-namespace Andre\DesingPatterns\Decorator\Interface;
+namespace App\Decorator\Interface;
 
 interface CofeInterface
 {

@@ -1,7 +1,7 @@
 <?php
-namespace Andre\DesingPatterns\Strategy\BehaviorsDuck;
+namespace App\Strategy\BehaviorsDuck;
 
-use Andre\DesingPatterns\Strategy\interfaces\FlayBehaviorInterface;
+use App\Strategy\Interfaces\FlayBehaviorInterface;
 
 class RubberFly implements FlayBehaviorInterface
 {
