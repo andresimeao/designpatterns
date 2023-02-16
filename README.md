@@ -1,2 +1,2 @@
 # designpatterns
-cases to practice design pattners with php
+cases to practice with php
