@@ -24,10 +24,9 @@ function runDecorator()
     $cofe = new Cofe();
     $cofe->qtt = 2;
     $cofe->value = 2.5;
-    echo $cofe->cost();
-    echo "</br>";
+    echo $cofe->cost() .  PHP_EOL;
     $cofe = new CofeWithFareDecorator($cofe);
-    echo $cofe->cost();
+    echo $cofe->cost() . PHP_EOL;
 }
 
 function runObserver()
